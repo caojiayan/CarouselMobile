@@ -1,0 +1,70 @@
+*{
+	margin:0;
+	padding:0;
+}
+ul li{
+	list-style: none;
+}
+/*tu start*/
+#tu{
+	width:50%;
+	height:350px;
+	overflow: hidden;
+	position: relative;
+}
+#tu .tu1 ul li img{
+	height:380px;
+	width:100%;
+}
+#tu .hd{
+	width:100px;
+	position:absolute;
+	right:37%;
+	bottom:20px;
+}
+#tu .hd ul li{
+	border-radius:50%;
+	float:left;
+	width:14px;
+	height:14px;
+	line-height:18px;
+	margin-right:5px;
+	background:#FFFFFF;
+	text-align:center; 	
+	cursor:pointer;
+}
+#tu .hd ul li:hover{
+	background:#DF483F;
+}
+#tu .hd ul li.on{
+	background:#DF483F;
+}
+#tu .prev,#tu .next{
+	display: block;
+	width:50px;
+	height:50px;
+	line-height:50px;
+	background:#EEE;
+	text-align: center;
+	font-family: "宋体";
+	font-size:50px;
+	color:#AAA;
+}
+#tu .prev:hover,#tu .next:hover{
+	opacity:0.5;
+}
+#tu .prev{
+	position:absolute;
+	left:50px;
+	top:130px;
+	z-index:100;
+	cursor:pointer; /*鼠标指针变成 手 的形状*/
+}
+#tu .next{
+	position:absolute;
+	right:50px;
+	top:130px;
+	z-index:100;
+	cursor:pointer;
+}
+/*tu end*/
